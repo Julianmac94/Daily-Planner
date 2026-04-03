@@ -6,6 +6,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
+  color-scheme: dark;
   --bg: #18191f;
   --surface: #22242d;
   --surface2: #2a2d38;
@@ -377,6 +378,7 @@ html, body {
 
 @media (prefers-color-scheme: light) {
   :root {
+  color-scheme: dark;
     --bg: #f4f5f8;
     --surface: #ffffff;
     --surface2: #eef0f5;
